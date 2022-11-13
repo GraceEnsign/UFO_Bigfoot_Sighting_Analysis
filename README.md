@@ -1,5 +1,7 @@
 ## UFO and Bigfoot Sighting Analysis
 
+[Tableau Dashboard](https://public.tableau.com/views/UFO_Bigfoot_Sighting_Map/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
+
 ### Purpose
 Geographic comparison of UFO and bigfoot sighting reports in the United States. User will have access to a Tableau desktop and will be able to access full reports through an interactive map of the United States. 
 
