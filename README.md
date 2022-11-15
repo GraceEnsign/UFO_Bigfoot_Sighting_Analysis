@@ -1,6 +1,8 @@
 ## UFO and Bigfoot Sighting Analysis
 
-[Tableau Dashboard](https://public.tableau.com/views/UFO_Bigfoot_Sighting_Map/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
+![Map](https://user-images.githubusercontent.com/105288631/201795512-9fb99167-65f9-49ef-9d51-085863bd8204.jpeg)
+
+[Link to Interactive Tableau Dashboard](https://public.tableau.com/views/UFO_Bigfoot_Sighting_Map/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 ### Project Description
 Geographic comparison of UFO and bigfoot sighting reports in the United States. Data of bigfoot sighting reports and locations were aquired and merged to form one cohesive dataframe. UFO data was geocoded to obtain the longitude and latitude of each sighting location. Cleaned reports were then connected to a Tableau dashboard, in which the user is able to see on a map of the United States where each sighting was reported. Map is interactive, and the user is able to select individual map markers to read the report and date of the sighting. Analysis created to aid in the question: Where, in the United States, are UFOs and bigfoot mostly spotted? Do UFOs make more appearances in the northeast? Does bigfoot prefer warmer climates, like Texas or Florida? Let's find out!
