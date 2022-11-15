@@ -25,7 +25,7 @@ Geocoder 1.38.1 <br>
 Three dataframes were initially acquired. Bigfoot sighting locations dataframe was a csv file and the reports dataframe was a json file. UFO dataframe was a json file. Due to the size of each dataframe, a SQL query was created to obtain a URL of each dataframe, and then read in as a csv. 
 
 ### Dataframe Sources
-[UFO Data](https://data.world/timothyrenner/ufo-sightings)
+[UFO Data](https://data.world/timothyrenner/ufo-sightings) <br>
 [Both Bigfoot Datframes](https://data.world/timothyrenner/bfro-sightings-data)
 
 ### Features Included 
@@ -36,3 +36,16 @@ Three dataframes were initially acquired. Bigfoot sighting locations dataframe w
 5. Interpretation of your data- Added markdown cells in Jupyter Notebook (found between cells through notebook). Further analysis found in section below.
 
 ### Analysis
+<h4 align="center"> UFO Analysis </h4>
+<p align="center"> <img src="https://user-images.githubusercontent.com/105288631/202034899-0814ede0-dc53-4675-9cf8-fcbb696e8f77.jpg" </p>
+
+Reported UFO sightings were more prevalent in the Pacific Coat, the Northeast, and Florida. The Great Plains reported the least amount of sightings, which was surprising. The probability of sightings would increase in less populated areas without buildings, lights, or landmarks to obstruct a view of the sky. However that same rational can be used for coastal cities, which reported more sightings that inland cities. It is worth noting that the three areas with the most reports (California, Florida, and New England coast) are also home to very active Air Force bases, in which aircrafts of varying shapes are frequently flown.
+
+<h4 align="center"> Bigfoot Analysis </h4>
+<p align="center"> <img src="https://user-images.githubusercontent.com/105288631/202034936-f23041cf-2ee2-4614-a9d3-f0ec671c707f.jpg" </p>
+
+Reported bigfoot sightings were more prevalent in the southern and midwest regions, as well as California and Colorado. Florida reported a high level of sightings for both UFOs and bigfoot. Middle American reported the least amount of UFO sightings. North and South Dakota had the least amount of sightings, if any. It's worth noting that both states have colder weather (averaging below 50 degrees seven months out of the year) which may lead to less time spent outdoors. Or bigfoot simply prefers warmer climates. 
+
+### Changes from Project Plan
+1. I initially planned to include annotations in Tableau, but decided to keep the dashboard as a simple interactive tool and add two additional maps. By adding additional maps I was able to add analysis of each dataframe separately.
+2. For the best practices feature I intially planned to build a custom data dictionary. However, during the process of cleaning the data, it became apparent that a virtual environment would be a necessity to run the project.
