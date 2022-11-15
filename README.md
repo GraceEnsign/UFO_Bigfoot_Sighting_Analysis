@@ -1,6 +1,6 @@
-## UFO and Bigfoot Sighting Analysis
+<h2 align="center"> UFO and Bigfoot Sighting Analysis </h2>
 
-![Map](https://user-images.githubusercontent.com/105288631/201795512-9fb99167-65f9-49ef-9d51-085863bd8204.jpeg)
+<p align="center"> <img src="https://user-images.githubusercontent.com/105288631/201795512-9fb99167-65f9-49ef-9d51-085863bd8204.jpeg" </p>
 
 [Link to Interactive Tableau Dashboard](https://public.tableau.com/views/UFO_Bigfoot_Sighting_Map/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
 
