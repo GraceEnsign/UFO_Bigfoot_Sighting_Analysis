@@ -12,6 +12,7 @@ Geographic comparison of UFO and bigfoot sighting reports in the United States. 
 <li>Run the following to install virtual environment (if not already installed): <blockquote> pip install virtualenv</blockquote> </li>
 <li>Create virtual environment by typing the following: <blockquote> virtualenv environment</blockquote></li>
 <li>To enter the virtual environment: <blockquote> source environment/bin/activate </blockquote></li>
+<li>Run the following to install required packages: <blockquote> pip install -r requirements.txt </blockquote></li>
 <li>Open the Analysis.ipynb once in the main directory with Jupyter Notebook, or open with editor.</li></ol>
 
 ### Relevant Packages
