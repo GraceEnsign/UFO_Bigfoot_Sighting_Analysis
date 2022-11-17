@@ -21,6 +21,7 @@ Jupyter Notebook <br>
 Pandas 1.4.2 <br>
 NumPy 1.23.3 <br>
 Geocoder 1.38.1 <br>
+GeoPy 2.2.0 <br>
 
 ### Data Description
 Three dataframes were initially acquired. Bigfoot sighting locations dataframe was a csv file and the reports dataframe was a json file. UFO dataframe was a json file. Due to the size of each dataframe, a SQL query was created to obtain a URL of each dataframe, and then read in as a csv. 
@@ -32,7 +33,7 @@ Three dataframes were initially acquired. Bigfoot sighting locations dataframe w
 ### Features Included 
 1. Loading data- Read in three data files (Cells 2-4)
 2. Clean and operate the data while combining them- Performed Pandas merge on the two bigfoot dataframes (Cell 6) after cleaning column names to assist with the merge (Cell 5). Used Pandas and NumPy to split, rename, reformat, drop, and filter columns (Cells 7-22, 27). Used geocoding to acquire longitude and latitude for UFO dataframe (Cells 23-24). Exported cleaned dataframes into Excel worksheets (Cell 28).
-3. Visualize/Present your data- Created interactive Tableau dashboard, which can be viewed [here](https://public.tableau.com/views/UFO_Bigfoot_Sighting_Map/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link).
+3. Visualize/Present your data- Created interactive Tableau dashboard, which can be viewed [here](https://public.tableau.com/views/UFO_Bigfoot_Sighting_Map/Sighting_Map?:language=en-US&:display_count=n&:origin=viz_share_link). All visualizations were made from the cleaned code exported at the end of the notebook.
 4. Best practices- Utilized a virtual environment and included instructions in README. 
 5. Interpretation of your data- Added markdown cells in Jupyter Notebook (found between cells through notebook). Further analysis found in section below.
 

@@ -2,3 +2,4 @@ python == 3.10.4
 pandas == 1.4.2
 numpy == 1.23.3
 geocoder == 1.38.1
+geopy == 2.2.0
