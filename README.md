@@ -10,7 +10,7 @@ Geographic comparison of UFO and bigfoot sighting reports in the United States. 
 ### Instructions to Run Project/Install Virtual Environment
 1. Clone the repository by typing the following: <blockquote> git clone https://github.com/GraceEnsign/UFO_Bigfoot_Sighting_Analysis.git</blockquote> 
 2. Run the following to install virtual environment (if not already installed): <blockquote> pip install virtualenv</blockquote> 
-3. Create virtual environment by typing the following: <blockquote> virtualenv environment</blockquote><
+3. Create virtual environment by typing the following: <blockquote> virtualenv environment</blockquote>
 4. To enter the virtual environment: <blockquote> source environment\Scripts\activate.bat </blockquote> This is the command to activate the virtual environment on Windows in PowerShell or command line. For a complete list of commands for any platform or shell [click here](https://docs.python.org/3/library/venv.html#how-venvs-work).
 5. Run the following to install required packages: <blockquote> pip install -r requirements.txt </blockquote>
 6. Open the Analysis.ipynb once in the main directory with Jupyter Notebook, or open with editor.
