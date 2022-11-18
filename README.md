@@ -11,7 +11,7 @@ Geographic comparison of UFO and bigfoot sighting reports in the United States. 
 <ol><li>Clone the repository by typing the following: <blockquote> git clone https://github.com/GraceEnsign/UFO_Bigfoot_Sighting_Analysis.git</blockquote> </li>
 <li>Run the following to install virtual environment (if not already installed): <blockquote> pip install virtualenv</blockquote> </li>
 <li>Create virtual environment by typing the following: <blockquote> virtualenv environment</blockquote></li>
-<li>To enter the virtual environment: <blockquote> source environment/bin/activate </blockquote></li>
+<li>To enter the virtual environment: <blockquote> source environment\Scripts\activate.bat </blockquote></li>
 <li>Run the following to install required packages: <blockquote> pip install -r requirements.txt </blockquote></li>
 <li>Open the Analysis.ipynb once in the main directory with Jupyter Notebook, or open with editor.</li></ol>
 
@@ -22,6 +22,7 @@ Pandas 1.4.2 <br>
 NumPy 1.23.3 <br>
 Geocoder 1.38.1 <br>
 GeoPy 2.2.0 <br>
+Openpyxl 3.0.9 <br>
 
 ### Data Description
 Three dataframes were initially acquired. Bigfoot sighting locations dataframe was a csv file and the reports dataframe was a json file. UFO dataframe was a json file. Due to the size of each dataframe, a SQL query was created to obtain a URL of each dataframe, and then read in as a csv. 
