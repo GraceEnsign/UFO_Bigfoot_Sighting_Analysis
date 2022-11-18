@@ -8,12 +8,12 @@
 Geographic comparison of UFO and bigfoot sighting reports in the United States. Data of bigfoot sighting reports and locations were aquired and merged to form one cohesive dataframe. UFO data was geocoded to obtain the longitude and latitude of each sighting location. Cleaned reports were then connected to a Tableau dashboard, in which the user is able to see on a map of the United States where each sighting was reported. Map is interactive, and the user is able to select individual map markers to read the report and date of the sighting. Analysis created to aid in the question: Where, in the United States, are UFOs and bigfoot mostly spotted? Do UFOs make more appearances in the northeast? Does bigfoot prefer warmer climates, like Texas or Florida? Let's find out!
 
 ### Instructions to Run Project/Install Virtual Environment
-<ol><li>Clone the repository by typing the following: <blockquote> git clone https://github.com/GraceEnsign/UFO_Bigfoot_Sighting_Analysis.git</blockquote> </li>
-<li>Run the following to install virtual environment (if not already installed): <blockquote> pip install virtualenv</blockquote> </li>
-<li>Create virtual environment by typing the following: <blockquote> virtualenv environment</blockquote></li>
-<li>To enter the virtual environment: <blockquote> source environment\Scripts\activate.bat </blockquote> This is the command to activate the virtual environment on Windows in PowerShell or command line. For a complete list of commands for any platform or shell [click here](https://docs.python.org/3/library/venv.html#how-venvs-work)</li>
-<li>Run the following to install required packages: <blockquote> pip install -r requirements.txt </blockquote></li>
-<li>Open the Analysis.ipynb once in the main directory with Jupyter Notebook, or open with editor.</li></ol>
+1. Clone the repository by typing the following: <blockquote> git clone https://github.com/GraceEnsign/UFO_Bigfoot_Sighting_Analysis.git</blockquote> 
+2. Run the following to install virtual environment (if not already installed): <blockquote> pip install virtualenv</blockquote> 
+3. Create virtual environment by typing the following: <blockquote> virtualenv environment</blockquote><
+4. To enter the virtual environment: <blockquote> source environment\Scripts\activate.bat </blockquote> This is the command to activate the virtual environment on Windows in PowerShell or command line. For a complete list of commands for any platform or shell [click here](https://docs.python.org/3/library/venv.html#how-venvs-work).
+5. Run the following to install required packages: <blockquote> pip install -r requirements.txt </blockquote>
+6. Open the Analysis.ipynb once in the main directory with Jupyter Notebook, or open with editor.
 
 ### Relevant Packages
 Python 3.10.4 <br>
